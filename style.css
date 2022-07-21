@@ -1,0 +1,28 @@
+body{
+    background-color: darkcyan;
+    margin-top: 70px;
+}
+span{
+    position: absolute;
+    margin-left: 5px;
+    height: 2.25rem;
+    display: flex;
+     align-items: center; 
+}
+
+.container{
+    position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+}
+
+
+input[type=text]{
+    opacity: 0.5;
+    padding-left: 3rem;
+}
+
+input[type=submit]{
+    margin-top: 10px;
+}
